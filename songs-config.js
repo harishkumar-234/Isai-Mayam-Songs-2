@@ -1,6 +1,6 @@
 window.SONGS_CONFIG = [
   {
-    "repo": 0,
+    "repo": 2,
     "movie": "Dude",
     "songs": [
       "Boom Boom.mpeg",
@@ -11,7 +11,7 @@ window.SONGS_CONFIG = [
     ]
   },
   {
-    "repo": 0,
+    "repo": 2,
     "movie": "Master",
     "songs": [
       "Kutty Story.mpeg",
@@ -21,7 +21,7 @@ window.SONGS_CONFIG = [
     ]
   },
   {
-    "repo": 0,
+    "repo": 2,
     "movie": "Sachin",
     "songs": [
       "Kanmoodi Thirakumbothu.mpeg",
