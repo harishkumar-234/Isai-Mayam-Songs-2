@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const repo = 0; // change to 1 or 2 in other repos
+const repo = 2; // change to 1 or 2 in other repos
 
 const config = [];
 
