@@ -1,4 +1,4 @@
-const SONGS_CONFIG = [
+window.SONGS_CONFIG = [
   {
     repo: 2,
     movie: "Dude",
