@@ -1,0 +1,34 @@
+name: Generate Songs Config
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate songs-config.js
+        run: node generate-config.js
+
+      - name: Commit updated config
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add songs-config.js
+
+          git diff --cached --quiet || git commit -m "Auto update songs-config.js"
+
+          git push
