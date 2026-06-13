@@ -28,5 +28,12 @@ window.SONGS_CONFIG = [
       "Vaa Vaa En Thalaiva.mpeg",
       "Vaadi Vaadi.mpeg"
     ]
+  },
+  {
+    "repo": 2,
+    "movie": "Virumandi",
+    "songs": [
+      "Unna Vida.mpeg"
+    ]
   }
 ];
