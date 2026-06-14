@@ -31,6 +31,15 @@ window.SONGS_CONFIG = [
   },
   {
     "repo": 2,
+    "movie": "TVK",
+    "songs": [
+      "Naan Thannandhani Aalu.mpeg",
+      "TVK - Flag Anthem.mpeg",
+      "Unga Vijay Unga Vijay.mpeg"
+    ]
+  },
+  {
+    "repo": 2,
     "movie": "Virumandi",
     "songs": [
       "Unna Vida.mpeg"
